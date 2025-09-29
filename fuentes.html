@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUENTES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #e8f5e9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            flex-grow: 1;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #a5d6a7;
+        }
+        .header h1 {
+            color: #388e3c;
+        }
+        .header p {
+            color: #666;
+            margin: 5px 0;
+        }
+        .nav {
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 2px solid #a5d6a7;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2e7d32;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .content-block {
+            background-color: #f1f8e9;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .content-block h2 {
+            color: #388e3c;
+            border-bottom: 1px solid #c8e6c9;
+            padding-bottom: 5px;
+        }
+        .content-block p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .content-block ul {
+            padding-left: 20px;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 30px;
+            align-items: center; /* Centra los videos */
+        }
+        /* Responsiveness para videos */
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+            height: 0;
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #a5d6a7;
+            margin-top: auto;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <h1>Fuentes de Investigación</h1>
+        <p>Esta es la comprobación de nuestra información.</p>
+    </header>
+
+    <nav class="nav">
+        <!-- Estos enlaces asumen que los archivos están en la misma carpeta: -->
+        <a href="index.html">Inicio y concepto de vitaminas</a>
+        <a href="clasificacion%20vitaminas.html">Clasificación y funciones vitamínicas</a>
+        <a href="importancia.html">Importancia vitaminas</a>
+        <a href="adn.html">ADN</a>
+        <a href="arn.html">ARN</a>
+        <a href="fuentes.html">Fuentes</a>
+    </nav>
+    
+    <div class="content-block">
+        <h2>Fuentes de información confiables</h2>
+        <p>
+            Hemos recopilado enlaces a sitios web de organizaciones reconocidas para asegurar que nuestra información sobre vitaminas, ADN y ARN sea precisa y esté actualizada.
+        </p>
+        
+        <ul>
+            <li>
+                **Acerca de las Vitaminas:**
+                <ul>
+                    <li><a href="https://medlineplus.gov/spanish/ency/article/002399.htm" target="_blank">Vitaminas: MedlinePlus enciclopedia médica</a></li>
+                    <li><a href="https://www.cdc.gov/folic-acid/es/about/seguridad-interacciones-y-efectos-en-la-salud-del-acido-folico.html" target="_blank">Seguridad y efectos del ácido fólico: CDC</a></li>
+                    <li><a href="https://lpi.oregonstate.edu/es/mic/vitaminas" target="_blank">Vitaminas: Linus Pauling Institute</a></li>
+                </ul>
+            </li>
+            <li>
+                **Acerca del ADN:**
+                <ul>
+                    <li><a href="https://www.genome.gov/es/about-genomics/fact-sheets/Guias-informativas-sobre-ciencia-investigacion-etica-y-el-instituto" target="_blank">Información sobre el genoma: Instituto Nacional de Investigación del Genoma Humano</a></li>
+                    <li><a href="https://www.cancer.gov/espanol/publicaciones/diccionarios/diccionario-cancer/def/adn" target="_blank">Definición de ADN: Instituto Nacional del Cáncer</a></li>
+                    <li><a href="https://medlineplus.gov/spanish/ency/article/002371.htm" target="_blank">Genética: MedlinePlus enciclopedia médica</a></li>
+                </ul>
+            </li>
+            <li>
+                **Acerca del ARN:**
+                <ul>
+                    <li><a href="https://www.cancer.gov/espanol/publicaciones/diccionarios/diccionario-cancer/def/arn" target="_blank">Definición de ARN: Instituto Nacional del Cáncer</a></li>
+                    <li><a href="https://www.argenbio.org/12709-el-arn-esa-molecula-esencial-que-permite-que-la-informacion-almacenada-en-el-adn-se-exprese-en-caracteristicas-visibles" target="_blank">El ARN, esa molécula esencial: Argenbio</a></li>
+                    <li><a href="https://oligofastx.com/es/la-evolucion-del-conocimiento-sobre-el-arn-desde-su-descubrimiento-hasta-la-actualidad" target="_blank">Evolución del conocimiento sobre el ARN: Oligofastx</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Videos de referencia</h3>
+        
+        <div class="video-container">
+            <!-- Video 1  -->
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/R3gJHEHcfZ4" 
+                        title="YouTube video player 1" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/E_DSBDvYJmI" 
+                        title="YouTube video player 2" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+
+            <!-- Video 3-->
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/1MovK6lqe80" 
+                        title="YouTube video player 3" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2025 Proyecto Vitaminas Vivas. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
